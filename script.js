@@ -58,8 +58,23 @@ function createDivsForColors(colorArray) {
 }
 
 // TODO: Implement this function!
+let card1;
+let card2;
+let cardsFlipped = 0;
+let noClicking = false;
+
+
+
 function handleCardClick(event) {
-  // you can use event.target to see which element was clicked
+  if (event.target.classList.contains('flipped')){
+  return;
+  }
+
+  let firstCard = event.target;
+  
+
+
+
   console.log("you just clicked", event.target);
 }
 
