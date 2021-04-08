@@ -7,13 +7,15 @@
   </head>
   <body>
     <h1>Memory Game!</h1>
-    <form>
-      <button>Start New Game</button>
-      
-    </form>
+      <p>How to play: Click a card to reveal what color it is. Try and match two colors together to keep the cards turned. Flip all cards to win the game!</p>
+      <div id='gameConsole'>    
+         <div id='scoreWrapper'>Current Score = <span id='counter'>0</span></div>
+          <form action='' id='startNewGame'>
+             <button type='submit' id='newGame'>Restart Game</button>
+          </form>
+       </div>
     <div id="game">
     </div>
     <script src="script.js"></script>
   </body>
 </html>
-

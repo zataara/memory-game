@@ -5,3 +5,28 @@
   margin: 10px;
   display: inline-block;
 }
+
+
+#gameConsole {
+  width: 10rem;
+
+}
+
+
+#counter {
+  display: inline-block;
+  
+
+
+}
+
+#scoreWrapper{
+  border: 2px solid black;
+  padding: 1em 
+  
+
+}
+
+#startNewGame {
+  margin-top: 10px;
+}
