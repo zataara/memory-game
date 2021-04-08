@@ -21,6 +21,7 @@ const COLORS = [
 
 
 
+
 function shuffle(array) {
   let counter = array.length;
 
