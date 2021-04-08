@@ -7,16 +7,16 @@ let newGameButton = document.querySelector('#newGame')
 let currentScore = 0;
 
 const COLORS = [
-  "red",
-  "blue",
-  "green",
-  "orange",
-  "purple",
-  "red",
-  "blue",
-  "green",
-  "orange",
-  "purple"
+  "crimson",
+  "cyan",
+  "darkorchid",
+  "sienna",
+  "SpringGreen",
+  "crimson",
+  "cyan",
+  "darkorchid",
+  "sienna",
+  "SpringGreen"
 ];
 
 
